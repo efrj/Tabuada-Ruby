@@ -1,1 +1,1 @@
-# Tabuada-Ruby
+# Tabuada Ruby
