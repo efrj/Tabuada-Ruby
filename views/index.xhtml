@@ -88,11 +88,11 @@ body {
         </div>
     </div>
     <div class="row">
-        <?r for x in 1..11 ?>
+        <?r for x in 1..10 ?>
             <?r color = @colors[x] ?>
             <div class="col-md-2 box-table">
                 <h4 style="color: #{ color };">Número #{ x }</h4>
-                <?r for y in 1..11 ?>
+                <?r for y in 1..10 ?>
                     <span style="color:#{ color };">#{ y }</span> + <b>#{ x }</b> = #{ (y+x) }<br>
                 <?r end ?>
             </div>
@@ -106,12 +106,12 @@ body {
         </div>
     </div>
     <div class="row">
-        <?r for x in 1..11 ?>
+        <?r for x in 1..10 ?>
             <?r color = @colors[x] ?>
             <div class="col-md-2 box-table">
                 <h4 style="color: #{ color };">Número #{ x }</h4>
                 <?r line = 0 ?>
-                <?r for y in 1..21 ?>
+                <?r for y in 1..20 ?>
                     <?r result = (y-x) ?>
                     <?r if result >= 0 ?>
                         <?r line += 1 ?>
@@ -131,11 +131,11 @@ body {
         </div>
     </div>
     <div class="row">
-        <?r for x in 1..11 ?>
+        <?r for x in 1..10 ?>
             <?r color = @colors[x] ?>
             <div class="col-md-2 box-table">
                 <h4 style="color: #{ color };">Número #{ x }</h4>
-                <?r for y in 1..11 ?>
+                <?r for y in 1..10 ?>
                     <span style="color: #{ color };">#{ y }</span> x <b>#{ x }</b> = #{ (y*x) }<br>
                 <?r end ?>
             </div>
@@ -149,11 +149,11 @@ body {
         </div>
     </div>
     <div class="row">
-        <?r for x in 1..11 ?>
+        <?r for x in 1..10 ?>
             <?r color = @colors[x] ?>
             <div class="col-md-2 box-table">
                 <h4 style="color: #{ color };">Número #{ x }</h4>
-                <?r for y in 1..11 ?>
+                <?r for y in 1..10 ?>
                     <span style="color: #{ color };">#{ (y*x) }</span> : <b>#{ x }</b> = #{ y }<br>
                 <?r end ?>
             </div>
