@@ -1,5 +1,5 @@
 # Tabuada Ruby
-Aplicativo Web de tabuada desenvolvido com o micro framework Ramaze, desenvolvido em Ruby.
+Aplicativo Web de tabuada desenvolvido em Ruby.
 
 A Tabuada Ruby é um app muito simples e pode ser útil para iniciantes em desenvolvimento com a linguagem Ruby.
 
